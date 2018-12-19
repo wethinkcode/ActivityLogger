@@ -22,7 +22,7 @@ class Socket: WebSocketDelegate {
     
     func websocketDidConnect(socket: WebSocketClient) {
         print("websocket is connected")
-        socket.write(string: "LOGIN:\(NSUserName())")
+        socket.write(string: "LOGIN,\(NSUserName())")
     }
     
     func websocketDidDisconnect(socket: WebSocketClient, error: Error?) {
