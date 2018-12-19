@@ -12,7 +12,16 @@ class Socket: WebSocketDelegate {
     
     var socket: WebSocket!
     
+    enum messageKey {
+        case LOGIN
+        case IDLE
+        case APP
+    }
+    
+    
     init(host: String, port: Int) {
+        
+        print("Socket Init: http://\(host):\(port)")
         var request = URLRequest(url: URL(string: "http://\(host):\(port)")!)
         request.timeoutInterval = 5
         socket = WebSocket(request: request)
@@ -44,5 +53,22 @@ class Socket: WebSocketDelegate {
         print("Received data: \(data.count)")
     }
     
+    func message(key : messageKey, value : String){
+       
+        var message = ""
+        
+        switch key {
+        case .LOGIN:
+            message = "LOGIN"
+        case .IDLE:
+            message = "IDLE"
+        case .APP:
+            message = "APP"
+        }
+        
+        message += ",\(value)"
+        
+        socket.write(string: message)
+    }
 
 }
