@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA05331721CA265B005E11AB /* SSLClientCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05330D21CA265A005E11AB /* SSLClientCertificate.swift */; };
+		FA05331821CA265B005E11AB /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05330E21CA265A005E11AB /* Compression.swift */; };
+		FA05331921CA265B005E11AB /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05330F21CA265A005E11AB /* SSLSecurity.swift */; };
+		FA05331A21CA265B005E11AB /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05331021CA265A005E11AB /* WebSocket.swift */; };
+		FA05331B21CA265B005E11AB /* Chrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05331221CA265A005E11AB /* Chrome.swift */; };
+		FA05331C21CA265B005E11AB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05331321CA265A005E11AB /* main.swift */; };
+		FA05331D21CA265B005E11AB /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05331421CA265B005E11AB /* Socket.swift */; };
+		FA05331E21CA265B005E11AB /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05331521CA265B005E11AB /* Logger.swift */; };
+		FA05331F21CA265B005E11AB /* AppChangeObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05331621CA265B005E11AB /* AppChangeObserver.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA0532FF21CA2647005E11AB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA05330121CA2647005E11AB /* ActivityLogger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ActivityLogger; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA05330B21CA265A005E11AB /* Chrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chrome.h; sourceTree = "<group>"; };
+		FA05330D21CA265A005E11AB /* SSLClientCertificate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSLClientCertificate.swift; sourceTree = "<group>"; };
+		FA05330E21CA265A005E11AB /* Compression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compression.swift; sourceTree = "<group>"; };
+		FA05330F21CA265A005E11AB /* SSLSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSLSecurity.swift; sourceTree = "<group>"; };
+		FA05331021CA265A005E11AB /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		FA05331121CA265A005E11AB /* bridging header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bridging header.h"; sourceTree = "<group>"; };
+		FA05331221CA265A005E11AB /* Chrome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chrome.swift; sourceTree = "<group>"; };
+		FA05331321CA265A005E11AB /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../source/main.swift; sourceTree = "<group>"; };
+		FA05331421CA265B005E11AB /* Socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		FA05331521CA265B005E11AB /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		FA05331621CA265B005E11AB /* AppChangeObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppChangeObserver.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0532FE21CA2647005E11AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0532F821CA2647005E11AB = {
+			isa = PBXGroup;
+			children = (
+				FA05330321CA2647005E11AB /* ActivityLogger */,
+				FA05330221CA2647005E11AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA05330221CA2647005E11AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA05330121CA2647005E11AB /* ActivityLogger */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA05330321CA2647005E11AB /* ActivityLogger */ = {
+			isa = PBXGroup;
+			children = (
+				FA05330C21CA265A005E11AB /* Starscream */,
+				FA05331621CA265B005E11AB /* AppChangeObserver.swift */,
+				FA05331121CA265A005E11AB /* bridging header.h */,
+				FA05330B21CA265A005E11AB /* Chrome.h */,
+				FA05331221CA265A005E11AB /* Chrome.swift */,
+				FA05331521CA265B005E11AB /* Logger.swift */,
+				FA05331321CA265A005E11AB /* main.swift */,
+				FA05331421CA265B005E11AB /* Socket.swift */,
+			);
+			path = ActivityLogger;
+			sourceTree = "<group>";
+		};
+		FA05330C21CA265A005E11AB /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				FA05330D21CA265A005E11AB /* SSLClientCertificate.swift */,
+				FA05330E21CA265A005E11AB /* Compression.swift */,
+				FA05330F21CA265A005E11AB /* SSLSecurity.swift */,
+				FA05331021CA265A005E11AB /* WebSocket.swift */,
+			);
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA05330021CA2647005E11AB /* ActivityLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA05330821CA2647005E11AB /* Build configuration list for PBXNativeTarget "ActivityLogger" */;
+			buildPhases = (
+				FA0532FD21CA2647005E11AB /* Sources */,
+				FA0532FE21CA2647005E11AB /* Frameworks */,
+				FA0532FF21CA2647005E11AB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActivityLogger;
+			productName = ActivityLogger;
+			productReference = FA05330121CA2647005E11AB /* ActivityLogger */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA0532F921CA2647005E11AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Werner SEEGERS";
+				TargetAttributes = {
+					FA05330021CA2647005E11AB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FA0532FC21CA2647005E11AB /* Build configuration list for PBXProject "ActivityLogger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA0532F821CA2647005E11AB;
+			productRefGroup = FA05330221CA2647005E11AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA05330021CA2647005E11AB /* ActivityLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA0532FD21CA2647005E11AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA05331D21CA265B005E11AB /* Socket.swift in Sources */,
+				FA05331821CA265B005E11AB /* Compression.swift in Sources */,
+				FA05331C21CA265B005E11AB /* main.swift in Sources */,
+				FA05331E21CA265B005E11AB /* Logger.swift in Sources */,
+				FA05331921CA265B005E11AB /* SSLSecurity.swift in Sources */,
+				FA05331B21CA265B005E11AB /* Chrome.swift in Sources */,
+				FA05331F21CA265B005E11AB /* AppChangeObserver.swift in Sources */,
+				FA05331721CA265B005E11AB /* SSLClientCertificate.swift in Sources */,
+				FA05331A21CA265B005E11AB /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA05330621CA2647005E11AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA05330721CA2647005E11AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FA05330921CA2647005E11AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/goinfre/wseegers/Desktop/ActivityLogger/ActivityLogger/bridging header.h";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		FA05330A21CA2647005E11AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/goinfre/wseegers/Desktop/ActivityLogger/ActivityLogger/bridging header.h";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0532FC21CA2647005E11AB /* Build configuration list for PBXProject "ActivityLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA05330621CA2647005E11AB /* Debug */,
+				FA05330721CA2647005E11AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA05330821CA2647005E11AB /* Build configuration list for PBXNativeTarget "ActivityLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA05330921CA2647005E11AB /* Debug */,
+				FA05330A21CA2647005E11AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA0532F921CA2647005E11AB /* Project object */;
+}
