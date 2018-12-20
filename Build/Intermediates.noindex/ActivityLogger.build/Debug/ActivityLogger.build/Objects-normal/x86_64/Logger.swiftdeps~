@@ -1,0 +1,623 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Logger"
+provides-nominal:
+- "14ActivityLogger0B0C"
+provides-member:
+- ["14ActivityLogger0B0C", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private ">="
+- !private "??"
+- "AppChangeObserver"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "Logger"
+- !private "NSDate"
+- "NSObject"
+- !private "NSString"
+- !private "Pipe"
+- !private "Process"
+- "Socket"
+- "String"
+- !private "StringLiteralType"
+- !private "TimeInterval"
+- "Timer"
+- !private "UnicodeScalarType"
+- !private "print"
+depends-member:
+- !private ["14ActivityLogger17AppChangeObserverC", "activeApp"]
+- !private ["SK", "Encoding"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SB", "init"]
+- !private ["Sz", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "Encoding"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "NSDate"]
+- !private ["s7CVarArgP", "NSString"]
+- !private ["s7CVarArgP", "Pipe"]
+- !private ["s7CVarArgP", "Process"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "TimeInterval"]
+- !private ["s7CVarArgP", "Timer"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "activeApp"]
+- !private ["s7CVarArgP", "arguments"]
+- !private ["s7CVarArgP", "currentApp"]
+- !private ["s7CVarArgP", "currentTime"]
+- !private ["s7CVarArgP", "fileHandleForReading"]
+- !private ["s7CVarArgP", "getIdleTime"]
+- !private ["s7CVarArgP", "idleChangeTime"]
+- !private ["s7CVarArgP", "idleState"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "integerValue"]
+- !private ["s7CVarArgP", "isIdle"]
+- !private ["s7CVarArgP", "launch"]
+- !private ["s7CVarArgP", "launchPath"]
+- !private ["s7CVarArgP", "logActivity"]
+- !private ["s7CVarArgP", "observer"]
+- !private ["s7CVarArgP", "pollDelay"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "readDataToEndOfFile"]
+- !private ["s7CVarArgP", "scheduledTimer"]
+- !private ["s7CVarArgP", "socket"]
+- !private ["s7CVarArgP", "standardInput"]
+- !private ["s7CVarArgP", "standardOutput"]
+- !private ["s7CVarArgP", "timeIntervalSince1970"]
+- !private ["Sl", "Encoding"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "Encoding"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Encoding"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "NSDate"]
+- !private ["s28CustomDebugStringConvertibleP", "NSString"]
+- !private ["s28CustomDebugStringConvertibleP", "Pipe"]
+- !private ["s28CustomDebugStringConvertibleP", "Process"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "TimeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "Timer"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "activeApp"]
+- !private ["s28CustomDebugStringConvertibleP", "arguments"]
+- !private ["s28CustomDebugStringConvertibleP", "currentApp"]
+- !private ["s28CustomDebugStringConvertibleP", "currentTime"]
+- !private ["s28CustomDebugStringConvertibleP", "fileHandleForReading"]
+- !private ["s28CustomDebugStringConvertibleP", "getIdleTime"]
+- !private ["s28CustomDebugStringConvertibleP", "idleChangeTime"]
+- !private ["s28CustomDebugStringConvertibleP", "idleState"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "integerValue"]
+- !private ["s28CustomDebugStringConvertibleP", "isIdle"]
+- !private ["s28CustomDebugStringConvertibleP", "launch"]
+- !private ["s28CustomDebugStringConvertibleP", "launchPath"]
+- !private ["s28CustomDebugStringConvertibleP", "logActivity"]
+- !private ["s28CustomDebugStringConvertibleP", "observer"]
+- !private ["s28CustomDebugStringConvertibleP", "pollDelay"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "readDataToEndOfFile"]
+- !private ["s28CustomDebugStringConvertibleP", "scheduledTimer"]
+- !private ["s28CustomDebugStringConvertibleP", "socket"]
+- !private ["s28CustomDebugStringConvertibleP", "standardInput"]
+- !private ["s28CustomDebugStringConvertibleP", "standardOutput"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Encoding"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "integerValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "Encoding"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Encoding"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "NSDate"]
+- !private ["s23CustomStringConvertibleP", "NSString"]
+- !private ["s23CustomStringConvertibleP", "Pipe"]
+- !private ["s23CustomStringConvertibleP", "Process"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "TimeInterval"]
+- !private ["s23CustomStringConvertibleP", "Timer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "activeApp"]
+- !private ["s23CustomStringConvertibleP", "arguments"]
+- !private ["s23CustomStringConvertibleP", "currentApp"]
+- !private ["s23CustomStringConvertibleP", "currentTime"]
+- !private ["s23CustomStringConvertibleP", "fileHandleForReading"]
+- !private ["s23CustomStringConvertibleP", "getIdleTime"]
+- !private ["s23CustomStringConvertibleP", "idleChangeTime"]
+- !private ["s23CustomStringConvertibleP", "idleState"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "integerValue"]
+- !private ["s23CustomStringConvertibleP", "isIdle"]
+- !private ["s23CustomStringConvertibleP", "launch"]
+- !private ["s23CustomStringConvertibleP", "launchPath"]
+- !private ["s23CustomStringConvertibleP", "logActivity"]
+- !private ["s23CustomStringConvertibleP", "observer"]
+- !private ["s23CustomStringConvertibleP", "pollDelay"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "readDataToEndOfFile"]
+- !private ["s23CustomStringConvertibleP", "scheduledTimer"]
+- !private ["s23CustomStringConvertibleP", "socket"]
+- !private ["s23CustomStringConvertibleP", "standardInput"]
+- !private ["s23CustomStringConvertibleP", "standardOutput"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["Se", "Encoding"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Sd", "init"]
+- !private ["SE", "Encoding"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SS10FoundationE8EncodingV", "rawValue"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["SQ", "APP"]
+- !private ["SQ", "Encoding"]
+- !private ["SQ", "IDLE"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "NSDate"]
+- !private ["SQ", "NSString"]
+- !private ["SQ", "Pipe"]
+- !private ["SQ", "Process"]
+- !private ["SQ", "String"]
+- !private ["SQ", "TimeInterval"]
+- !private ["SQ", "Timer"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "activeApp"]
+- !private ["SQ", "arguments"]
+- !private ["SQ", "currentApp"]
+- !private ["SQ", "currentTime"]
+- !private ["SQ", "fileHandleForReading"]
+- !private ["SQ", "getIdleTime"]
+- !private ["SQ", "idleChangeTime"]
+- !private ["SQ", "idleState"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "integerValue"]
+- !private ["SQ", "isIdle"]
+- !private ["SQ", "launch"]
+- !private ["SQ", "launchPath"]
+- !private ["SQ", "logActivity"]
+- !private ["SQ", "observer"]
+- !private ["SQ", "pollDelay"]
+- !private ["SQ", "print"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "readDataToEndOfFile"]
+- !private ["SQ", "scheduledTimer"]
+- !private ["SQ", "socket"]
+- !private ["SQ", "standardInput"]
+- !private ["SQ", "standardOutput"]
+- !private ["SQ", "timeIntervalSince1970"]
+- !private ["SQ", "utf8"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "integerValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "Encoding"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "integerValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Encoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "integerValue"]
+- !private ["So12NSFileHandleC", "readDataToEndOfFile"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "APP"]
+- !private ["SH", "Encoding"]
+- !private ["SH", "IDLE"]
+- !private ["SH", "Int"]
+- !private ["SH", "NSDate"]
+- !private ["SH", "NSString"]
+- !private ["SH", "Pipe"]
+- !private ["SH", "Process"]
+- !private ["SH", "String"]
+- !private ["SH", "TimeInterval"]
+- !private ["SH", "Timer"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "activeApp"]
+- !private ["SH", "arguments"]
+- !private ["SH", "currentApp"]
+- !private ["SH", "currentTime"]
+- !private ["SH", "fileHandleForReading"]
+- !private ["SH", "getIdleTime"]
+- !private ["SH", "idleChangeTime"]
+- !private ["SH", "idleState"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "integerValue"]
+- !private ["SH", "isIdle"]
+- !private ["SH", "launch"]
+- !private ["SH", "launchPath"]
+- !private ["SH", "logActivity"]
+- !private ["SH", "observer"]
+- !private ["SH", "pollDelay"]
+- !private ["SH", "print"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "readDataToEndOfFile"]
+- !private ["SH", "scheduledTimer"]
+- !private ["SH", "socket"]
+- !private ["SH", "standardInput"]
+- !private ["SH", "standardOutput"]
+- !private ["SH", "timeIntervalSince1970"]
+- !private ["SH", "utf8"]
+- !private ["Si", "init"]
+- ["14ActivityLogger0B0C", "AppChangeObserver"]
+- ["14ActivityLogger0B0C", "Bool"]
+- ["14ActivityLogger0B0C", "Int"]
+- !private ["14ActivityLogger0B0C", "NSDate"]
+- !private ["14ActivityLogger0B0C", "NSString"]
+- !private ["14ActivityLogger0B0C", "Pipe"]
+- !private ["14ActivityLogger0B0C", "Process"]
+- ["14ActivityLogger0B0C", "Socket"]
+- ["14ActivityLogger0B0C", "String"]
+- !private ["14ActivityLogger0B0C", "TimeInterval"]
+- ["14ActivityLogger0B0C", "Timer"]
+- !private ["14ActivityLogger0B0C", "currentApp"]
+- !private ["14ActivityLogger0B0C", "currentTime"]
+- ["14ActivityLogger0B0C", "getIdleTime"]
+- !private ["14ActivityLogger0B0C", "idleChangeTime"]
+- !private ["14ActivityLogger0B0C", "idleState"]
+- ["14ActivityLogger0B0C", "init"]
+- ["14ActivityLogger0B0C", "isIdle"]
+- !private ["14ActivityLogger0B0C", "logActivity"]
+- !private ["14ActivityLogger0B0C", "observer"]
+- !private ["14ActivityLogger0B0C", "pollDelay"]
+- !private ["14ActivityLogger0B0C", "print"]
+- !private ["14ActivityLogger0B0C", "socket"]
+- ["14ActivityLogger0B0C", "start"]
+- !private ["s25LosslessStringConvertibleP", "Encoding"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "Encoding"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "integerValue"]
+- !private ["So8NSCodingP", "readDataToEndOfFile"]
+- !private ["So8NSCodingP", "timeIntervalSince1970"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "integerValue"]
+- !private ["So9NSCopyingP", "timeIntervalSince1970"]
+- !private ["So6NSDateC", "init"]
+- !private ["So6NSDateC", "init"]
+- !private ["So6NSDateC", "timeIntervalSince1970"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "integerValue"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "integerValue"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "integerValue"]
+- ["So8NSObjectC", "AppChangeObserver"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSDate"]
+- !private ["So8NSObjectC", "NSString"]
+- !private ["So8NSObjectC", "Pipe"]
+- !private ["So8NSObjectC", "Process"]
+- ["So8NSObjectC", "Socket"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "TimeInterval"]
+- ["So8NSObjectC", "Timer"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activeApp"]
+- !private ["So8NSObjectC", "arguments"]
+- ["So8NSObjectC", "currentApp"]
+- ["So8NSObjectC", "currentTime"]
+- !private ["So8NSObjectC", "fileHandleForReading"]
+- ["So8NSObjectC", "getIdleTime"]
+- ["So8NSObjectC", "idleChangeTime"]
+- ["So8NSObjectC", "idleState"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "integerValue"]
+- ["So8NSObjectC", "isIdle"]
+- !private ["So8NSObjectC", "launch"]
+- !private ["So8NSObjectC", "launchPath"]
+- ["So8NSObjectC", "logActivity"]
+- ["So8NSObjectC", "observer"]
+- ["So8NSObjectC", "pollDelay"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "readDataToEndOfFile"]
+- !private ["So8NSObjectC", "scheduledTimer"]
+- ["So8NSObjectC", "socket"]
+- !private ["So8NSObjectC", "standardInput"]
+- !private ["So8NSObjectC", "standardOutput"]
+- ["So8NSObjectC", "start"]
+- !private ["So8NSObjectC", "timeIntervalSince1970"]
+- !private ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "NSDate"]
+- !private ["So8NSObjectP", "NSString"]
+- !private ["So8NSObjectP", "Pipe"]
+- !private ["So8NSObjectP", "Process"]
+- !private ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "TimeInterval"]
+- !private ["So8NSObjectP", "Timer"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activeApp"]
+- !private ["So8NSObjectP", "arguments"]
+- !private ["So8NSObjectP", "currentApp"]
+- !private ["So8NSObjectP", "currentTime"]
+- !private ["So8NSObjectP", "fileHandleForReading"]
+- !private ["So8NSObjectP", "getIdleTime"]
+- !private ["So8NSObjectP", "idleChangeTime"]
+- !private ["So8NSObjectP", "idleState"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "integerValue"]
+- !private ["So8NSObjectP", "isIdle"]
+- !private ["So8NSObjectP", "launch"]
+- !private ["So8NSObjectP", "launchPath"]
+- !private ["So8NSObjectP", "logActivity"]
+- !private ["So8NSObjectP", "observer"]
+- !private ["So8NSObjectP", "pollDelay"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "readDataToEndOfFile"]
+- !private ["So8NSObjectP", "scheduledTimer"]
+- !private ["So8NSObjectP", "socket"]
+- !private ["So8NSObjectP", "standardInput"]
+- !private ["So8NSObjectP", "standardOutput"]
+- !private ["So8NSObjectP", "timeIntervalSince1970"]
+- !private ["So19NSPasteboardReadingP", "init"]
+- !private ["So19NSPasteboardReadingP", "init"]
+- !private ["So19NSPasteboardReadingP", "integerValue"]
+- !private ["So19NSPasteboardWritingP", "init"]
+- !private ["So19NSPasteboardWritingP", "init"]
+- !private ["So19NSPasteboardWritingP", "integerValue"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "integerValue"]
+- !private ["So14NSSecureCodingP", "readDataToEndOfFile"]
+- !private ["So14NSSecureCodingP", "timeIntervalSince1970"]
+- !private ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "integerValue"]
+- !private ["Sj", "init"]
+- !private ["So6NSPipeC", "fileHandleForReading"]
+- !private ["So6NSPipeC", "init"]
+- !private ["So6NSTaskC", "arguments"]
+- !private ["So6NSTaskC", "init"]
+- !private ["So6NSTaskC", "launch"]
+- !private ["So6NSTaskC", "launchPath"]
+- !private ["So6NSTaskC", "standardInput"]
+- !private ["So6NSTaskC", "standardOutput"]
+- !private ["Sm", "Encoding"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "utf8"]
+- !private ["ST", "Encoding"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["14ActivityLogger6SocketC", "message"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "Encoding"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "Encoding"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "Encoding"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "Encoding"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So7NSTimerC", "scheduledTimer"]
+- !private ["14ActivityLogger17WebSocketDelegateP", "message"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Encoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "Encoding"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Encoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "Encoding"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "integerValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "timeIntervalSince1970"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Pipe"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Process"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TimeInterval"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Timer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activeApp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arguments"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentApp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileHandleForReading"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getIdleTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "idleChangeTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "idleState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "integerValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isIdle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "launch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "launchPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "logActivity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pollDelay"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "readDataToEndOfFile"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scheduledTimer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "socket"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standardInput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standardOutput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeIntervalSince1970"]
+- !private ["s21_ObjectiveCBridgeableP", "Encoding"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "Encoding"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["14ActivityLogger6SocketC10messageKeyO", "APP"]
+- !private ["14ActivityLogger6SocketC10messageKeyO", "IDLE"]
+depends-nominal:
+- !private "14ActivityLogger17AppChangeObserverC"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "Sd"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So12NSFileHandleC"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- "SH"
+- !private "Si"
+- "14ActivityLogger0B0C"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSDateC"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "So6NSPipeC"
+- !private "So6NSTaskC"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "14ActivityLogger6SocketC"
+- !private "s12StaticStringV"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So7NSTimerC"
+- !private "14ActivityLogger17WebSocketDelegateP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+- !private "14ActivityLogger6SocketC10messageKeyO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ScriptingBridge.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/goinfre/wseegers/Desktop/ActivityLogger/ActivityLogger/Chrome.h"
+- "/goinfre/wseegers/Desktop/ActivityLogger/ActivityLogger/bridging header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6b1cb1bc93907c1c94990087afd77484"

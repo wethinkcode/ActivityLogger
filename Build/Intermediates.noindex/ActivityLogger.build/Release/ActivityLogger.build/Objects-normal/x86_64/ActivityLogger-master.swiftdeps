@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "a9780d95a51e1fb30c49c54eccd0dddf"
+build_time: [1545281344, 399116000]
+inputs:
+  "/goinfre/wseegers/Desktop/ActivityLogger/ActivityLogger/Socket.swift": [9223372036, 854775807]
+  "/goinfre/wseegers/Desktop/ActivityLogger/ActivityLogger/Starscream/Compression.swift": [9223372036, 854775807]
+  "/goinfre/wseegers/Desktop/source/main.swift": [9223372036, 854775807]
+  "/goinfre/wseegers/Desktop/ActivityLogger/ActivityLogger/Logger.swift": [9223372036, 854775807]
+  "/goinfre/wseegers/Desktop/ActivityLogger/ActivityLogger/Starscream/SSLSecurity.swift": [9223372036, 854775807]
+  "/goinfre/wseegers/Desktop/ActivityLogger/ActivityLogger/Chrome.swift": [9223372036, 854775807]
+  "/goinfre/wseegers/Desktop/ActivityLogger/ActivityLogger/AppChangeObserver.swift": [9223372036, 854775807]
+  "/goinfre/wseegers/Desktop/ActivityLogger/ActivityLogger/Starscream/SSLClientCertificate.swift": [9223372036, 854775807]
+  "/goinfre/wseegers/Desktop/ActivityLogger/ActivityLogger/Starscream/WebSocket.swift": [9223372036, 854775807]

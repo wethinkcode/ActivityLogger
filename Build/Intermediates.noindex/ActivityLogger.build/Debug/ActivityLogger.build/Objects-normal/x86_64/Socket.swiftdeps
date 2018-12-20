@@ -1,0 +1,324 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Socket"
+provides-nominal:
+- "14ActivityLogger6SocketC"
+- "14ActivityLogger6SocketC10messageKeyO"
+provides-member:
+- ["14ActivityLogger6SocketC", ""]
+- ["14ActivityLogger6SocketC10messageKeyO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+="
+- "=="
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Data"
+- "Error"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "NSUserName"
+- "Socket"
+- "String"
+- !private "StringLiteralType"
+- !private "URL"
+- !private "URLRequest"
+- !private "UnicodeScalarType"
+- !private "WSError"
+- "WebSocket"
+- "WebSocketClient"
+- "WebSocketDelegate"
+- !private "print"
+depends-member:
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "connect"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "write"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "connect"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "timeoutInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "write"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "connect"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "delegate"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "timeoutInterval"]
+- !private ["s17CustomReflectableP", "write"]
+- !private ["s23CustomStringConvertibleP", "connect"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "timeoutInterval"]
+- !private ["s23CustomStringConvertibleP", "write"]
+- !private ["10Foundation4DataV", "count"]
+- !private ["Se", "connect"]
+- !private ["Se", "count"]
+- !private ["Se", "delegate"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "write"]
+- !private ["SE", "connect"]
+- !private ["SE", "count"]
+- !private ["SE", "delegate"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "write"]
+- ["SQ", "APP"]
+- ["SQ", "IDLE"]
+- ["SQ", "LOGIN"]
+- ["SQ", ""]
+- !private ["SQ", "connect"]
+- !private ["SQ", "count"]
+- !private ["SQ", "delegate"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "timeoutInterval"]
+- !private ["SQ", "write"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s5ErrorP", "message"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "connect"]
+- !private ["s23ExpressibleByNilLiteralP", "delegate"]
+- !private ["s23ExpressibleByNilLiteralP", "write"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "APP"]
+- ["SH", "IDLE"]
+- ["SH", "LOGIN"]
+- ["SH", ""]
+- !private ["SH", "connect"]
+- !private ["SH", "count"]
+- !private ["SH", "delegate"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "timeoutInterval"]
+- !private ["SH", "write"]
+- !private ["s6HasherV", "combine"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- !private ["So8NSObjectC", "connect"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "write"]
+- !private ["So8NSObjectP", "connect"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "write"]
+- !private ["Sq", "connect"]
+- !private ["Sq", "delegate"]
+- !private ["Sq", "write"]
+- !private ["Sk", "count"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeoutInterval"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- ["14ActivityLogger6SocketC", "Data"]
+- ["14ActivityLogger6SocketC", "Error"]
+- ["14ActivityLogger6SocketC", "Int"]
+- !private ["14ActivityLogger6SocketC", "NSUserName"]
+- ["14ActivityLogger6SocketC", "String"]
+- !private ["14ActivityLogger6SocketC", "URL"]
+- !private ["14ActivityLogger6SocketC", "URLRequest"]
+- !private ["14ActivityLogger6SocketC", "WSError"]
+- ["14ActivityLogger6SocketC", "WebSocket"]
+- ["14ActivityLogger6SocketC", "WebSocketClient"]
+- ["14ActivityLogger6SocketC", "deinit"]
+- ["14ActivityLogger6SocketC", "init"]
+- ["14ActivityLogger6SocketC", "message"]
+- ["14ActivityLogger6SocketC", "messageKey"]
+- !private ["14ActivityLogger6SocketC", "print"]
+- ["14ActivityLogger6SocketC", "socket"]
+- ["14ActivityLogger6SocketC", "websocketDidConnect"]
+- ["14ActivityLogger6SocketC", "websocketDidDisconnect"]
+- ["14ActivityLogger6SocketC", "websocketDidReceiveData"]
+- ["14ActivityLogger6SocketC", "websocketDidReceiveMessage"]
+- !private ["So16NSStreamDelegateP", "connect"]
+- !private ["So16NSStreamDelegateP", "delegate"]
+- !private ["So16NSStreamDelegateP", "init"]
+- !private ["So16NSStreamDelegateP", "write"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["10Foundation10URLRequestV", "timeoutInterval"]
+- !private ["14ActivityLogger7WSErrorV", "message"]
+- !private ["14ActivityLogger16WSStreamDelegateP", "connect"]
+- !private ["14ActivityLogger16WSStreamDelegateP", "delegate"]
+- !private ["14ActivityLogger16WSStreamDelegateP", "init"]
+- !private ["14ActivityLogger16WSStreamDelegateP", "write"]
+- !private ["14ActivityLogger9WebSocketC", "connect"]
+- !private ["14ActivityLogger9WebSocketC", "deinit"]
+- !private ["14ActivityLogger9WebSocketC", "delegate"]
+- !private ["14ActivityLogger9WebSocketC", "init"]
+- !private ["14ActivityLogger9WebSocketC", "write"]
+- !private ["14ActivityLogger15WebSocketClientP", "connect"]
+- !private ["14ActivityLogger15WebSocketClientP", "delegate"]
+- !private ["14ActivityLogger15WebSocketClientP", "init"]
+- !private ["14ActivityLogger15WebSocketClientP", "write"]
+- !private ["14ActivityLogger17WebSocketDelegateP", "NSUserName"]
+- !private ["14ActivityLogger17WebSocketDelegateP", "URL"]
+- !private ["14ActivityLogger17WebSocketDelegateP", "URLRequest"]
+- !private ["14ActivityLogger17WebSocketDelegateP", "WebSocket"]
+- ["14ActivityLogger17WebSocketDelegateP", ""]
+- !private ["14ActivityLogger17WebSocketDelegateP", "print"]
+- !private ["14ActivityLogger17WebSocketDelegateP", "socket"]
+- ["14ActivityLogger17WebSocketDelegateP", "websocketDidConnect"]
+- ["14ActivityLogger17WebSocketDelegateP", "websocketDidDisconnect"]
+- ["14ActivityLogger17WebSocketDelegateP", "websocketDidReceiveData"]
+- ["14ActivityLogger17WebSocketDelegateP", "websocketDidReceiveMessage"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "write"]
+- !private ["s21_ObjectiveCBridgeableP", "connect"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "delegate"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "timeoutInterval"]
+- !private ["s21_ObjectiveCBridgeableP", "write"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- ["14ActivityLogger6SocketC10messageKeyO", "APP"]
+- ["14ActivityLogger6SocketC10messageKeyO", "IDLE"]
+- ["14ActivityLogger6SocketC10messageKeyO", "LOGIN"]
+- ["14ActivityLogger6SocketC10messageKeyO", "__derived_enum_equals"]
+- ["14ActivityLogger6SocketC10messageKeyO", "deinit"]
+- ["14ActivityLogger6SocketC10messageKeyO", "hash"]
+- ["14ActivityLogger6SocketC10messageKeyO", "hashValue"]
+depends-nominal:
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- "14ActivityLogger6SocketC"
+- !private "So16NSStreamDelegateP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "10Foundation10URLRequestV"
+- !private "14ActivityLogger7WSErrorV"
+- !private "14ActivityLogger16WSStreamDelegateP"
+- !private "14ActivityLogger9WebSocketC"
+- !private "14ActivityLogger15WebSocketClientP"
+- "14ActivityLogger17WebSocketDelegateP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+- "14ActivityLogger6SocketC10messageKeyO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ScriptingBridge.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/goinfre/wseegers/Desktop/ActivityLogger/ActivityLogger/Chrome.h"
+- "/goinfre/wseegers/Desktop/ActivityLogger/ActivityLogger/bridging header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "01d9f3900e840c04670af977d83fa356"
