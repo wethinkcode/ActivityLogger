@@ -6,18 +6,6 @@
 //  Copyright © 2018 Werner SEEGERS. All rights reserved.
 //
 
-/*
- 
- 
- Start a timer every second poll
- --> Get App Name
- --> Idle Time
- --> if App is Chome
-    --> Open Tab
- On Change Post
- 
- */
-
 import Cocoa
 
 class Logger: NSObject {
@@ -26,9 +14,6 @@ class Logger: NSObject {
     private let pollDelay : Int
     
     // State
-    private var currentTime : Int
-    
-    private var idleChangeTime : Int
     private var idleState : Bool
     
     private let observer : AppChangeObserver
@@ -40,10 +25,7 @@ class Logger: NSObject {
         
         self.pollDelay = 1
         
-        self.currentTime = Int(NSDate.init().timeIntervalSince1970)
-        
         self.idleState = false
-        self.idleChangeTime = self.currentTime
         
         self.observer = observer
         self.socket = socket
@@ -57,24 +39,19 @@ class Logger: NSObject {
     }
     
     private func logActivity(_ : Timer){
-//        currentTime = Int(NSDate.init().timeIntervalSince1970)
-        
         if (currentApp) != observer.activeApp{
-            print("App Changed")
+//            print("App Changed")
             socket.message(key: .APP, value: observer.activeApp)
             currentApp = observer.activeApp
         }
         
-        print(getIdleTime())
+//        print(getIdleTime())
         let isNowIdle = isIdle()
         if isNowIdle != idleState {
             socket.message(key: .IDLE, value: "_")
-            idleChangeTime = currentTime
             idleState = isNowIdle
         }
-        
     }
-    
 
     public func getIdleTime() -> Int{
 
