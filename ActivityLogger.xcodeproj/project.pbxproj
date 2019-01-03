@@ -289,6 +289,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L4HEUN8NQ;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "/goinfre/wseegers/Desktop/ActivityLogger/ActivityLogger/bridging header.h";
 				SWIFT_VERSION = 4.2;
@@ -299,6 +301,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L4HEUN8NQ;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "/goinfre/wseegers/Desktop/ActivityLogger/ActivityLogger/bridging header.h";
 				SWIFT_VERSION = 4.2;
